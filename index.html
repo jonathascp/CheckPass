@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>CheckPass</title>
+</head>
+<body>
+    <main>
+        <h1>Check Pass</h1>
+        <form id="formulario" >
+            <ul id="lista">
+                <li id="item_1">Senha deve conter no máximo 16 caracteres.</li>
+                <li id="item_2">Senha deve conter pelo menos uma letra maiúscula.</li>
+                <li id="item_3">Senha deve conter pelo menos 1 símbolo especial (!@$).</li>
+            </ul>
+            <div class="inputs">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required maxlength="16">
+                <input id="btn" type="button" value="Criar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
